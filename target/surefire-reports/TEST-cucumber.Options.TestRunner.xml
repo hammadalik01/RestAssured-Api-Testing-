@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="14.575" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\WebProject\Trello\target\test-classes;C:\WebProject\Trello\target\classes;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\HP\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\HP\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\HP\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\HP\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\HP\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\HP\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\HP\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy-json\3.0.19\groovy-json-3.0.19.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy\3.0.19\groovy-3.0.19.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Tallinn"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire12756856197053517997\surefirebooter-20251102034025766_3.jar C:\Users\HP\AppData\Local\Temp\surefire12756856197053517997 2025-11-02T03-40-25_487-jvmRun1 surefire-20251102034025766_1tmp surefire_0-20251102034025766_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\WebProject\Trello\target\test-classes;C:\WebProject\Trello\target\classes;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\HP\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\HP\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\HP\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\HP\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\HP\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\HP\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\HP\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\HP\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy-json\3.0.19\groovy-json-3.0.19.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy\3.0.19\groovy-3.0.19.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\WebProject\Trello"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire12756856197053517997\surefirebooter-20251102034025766_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.16+8"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.16+8"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.16"/>
+    <property name="user.dir" value="C:\WebProject\Trello"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\apache-maven-3.8.4\bin;C:\Users\HP\AppData\Local\Android\Sdk\tools;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Android\Android Studio\jre\bin\tools\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;C:\Users\HP\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\HP\AppData\Local\Programs\Python\Python313;C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python313\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\HP\GitHubDesktop\bin;C:\Program Files\JetBrains\WebStorm 2022.1\bin;C:\Program Files\gradle-8.1.1\bin;C:\Users\HP\.dotnet\tools;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Local\Programs\Python;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code Insiders\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.16+8"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="" classname="Validation Of Trello Boards" time="4.5">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m                                                                                                      &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/BoardValidation.feature:18&amp#27;[39m
+Creating new board payload: First
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mAdd Board Payload with Board name &amp#27;[1m"First"&amp#27;[22m&amp#27;[39m                                                                    &amp#27;[90m# stepDefinitionFile.BoardStepDefinitions.add_board_payload(java.lang.String)&amp#27;[39m
+Calling API: AddBoardAPI using method: post
+API call completed. Endpoint: /boards/, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"AddBoardAPI"&amp#27;[22m by using &amp#27;[1m"post"&amp#27;[22m request&amp#27;[39m                                                               &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                                                                 &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Board verified successfully: ID=6906b68ef15f686d08bda6ea, Name=First
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify all important details of the created Board with name &amp#27;[1m"First"&amp#27;[22m and URL containing &amp#27;[1m"https://trello.com/b/"&amp#27;[22m&amp#27;[39m &amp#27;[90m# stepDefinitionFile.BoardStepDefinitions.verify_created_board(java.lang.String,java.lang.String)&amp#27;[39m
+Using stored Board ID: 6906b68ef15f686d08bda6ea
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mBoard ID is stored from previous response&amp#27;[39m                                                                    &amp#27;[90m# stepDefinitionFile.CommonSteps.board_id_stored()&amp#27;[39m
+Calling API: GetBoardAPI using method: get
+API call completed. Endpoint: /boards/6906b68ef15f686d08bda6ea, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"GetBoardAPI"&amp#27;[22m by using &amp#27;[1m"get"&amp#27;[22m request&amp#27;[39m                                                                &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                                                                 &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Board verified successfully: ID=6906b68ef15f686d08bda6ea, Name=First
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify all important details of the created Board with name &amp#27;[1m"First"&amp#27;[22m and URL containing &amp#27;[1m"https://trello.com/b/"&amp#27;[22m&amp#27;[39m &amp#27;[90m# stepDefinitionFile.BoardStepDefinitions.verify_created_board(java.lang.String,java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Update a board&apos;s name using UpdateBoardAPI" classname="Validation Of Trello Boards" time="0.462">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Update a board's name using UpdateBoardAPI               &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/BoardValidation.feature:20&amp#27;[39m
+Prepared payload to update Board name to: hammad868_Updated
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUpdate Board Payload with Board name &amp#27;[1m"hammad868_Updated"&amp#27;[22m&amp#27;[39m &amp#27;[90m# stepDefinitionFile.BoardStepDefinitions.update_board_payload(java.lang.String)&amp#27;[39m
+Calling API: UpdateBoardAPI using method: put
+API call completed. Endpoint: /boards/6906b68ef15f686d08bda6ea, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"UpdateBoardAPI"&amp#27;[22m by using &amp#27;[1m"put"&amp#27;[22m request&amp#27;[39m         &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m             &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Board Name Updated: hammad868_Updated
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify Board name is updated to &amp#27;[1m"hammad868_Updated"&amp#27;[22m&amp#27;[39m        &amp#27;[90m# stepDefinitionFile.BoardStepDefinitions.verify_board_name_updated(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the updated board name is reflected when fetching board details" classname="Validation Of Trello Boards" time="0.341">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Verify the updated board name is reflected when fetching board details        &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/BoardValidation.feature:27&amp#27;[39m
+Using stored Board ID: 6906b68ef15f686d08bda6ea
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mBoard ID is stored from previous response&amp#27;[39m                                     &amp#27;[90m# stepDefinitionFile.CommonSteps.board_id_stored()&amp#27;[39m
+Calling API: GetBoardAPI using method: get
+API call completed. Endpoint: /boards/6906b68ef15f686d08bda6ea, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"GetBoardAPI"&amp#27;[22m by using &amp#27;[1m"get"&amp#27;[22m request&amp#27;[39m                                 &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                                  &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Updated Board verified: Name=hammad868_Updated
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify all important details of the updated Board with name &amp#27;[1m"hammad868_Updated"&amp#27;[22m&amp#27;[39m &amp#27;[90m# stepDefinitionFile.BoardStepDefinitions.verify_updated_board(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Create a new card under an existing list" classname="Validation of Trello Cards" time="1.918">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Create a new card under an existing list                        &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/CardValidation.feature:3&amp#27;[39m
+No existing list found creating a temporary list
+Created temporary list: 6906b6909abb239518a21362
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mList ID is stored from previous response&amp#27;[39m                        &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.list_id_is_stored_from_previous_response()&amp#27;[39m
+Prepared card payload: First Card
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mAdd Card Payload with Card name &amp#27;[1m"First Card"&amp#27;[22m&amp#27;[39m                      &amp#27;[90m# stepDefinitionFile.CardStepDefinitions.add_card_payload(java.lang.String)&amp#27;[39m
+Calling API: CREATE_CARD_API using method: post
+API call completed. Endpoint: /cards, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"CREATE_CARD_API"&amp#27;[22m by using &amp#27;[1m"post"&amp#27;[22m request&amp#27;[39m              &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                    &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Card verified successfully: First Card
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify Card details with name &amp#27;[1m"First Card"&amp#27;[22m and associated List ID&amp#27;[39m &amp#27;[90m# stepDefinitionFile.CardStepDefinitions.verify_card_details(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Update the card name" classname="Validation of Trello Cards" time="0.51">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Update the card name                                                    &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/CardValidation.feature:11&amp#27;[39m
+Using Card ID: 6906b6923e534039f75f3084
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mCard ID is stored from previous response&amp#27;[39m                                &amp#27;[90m# stepDefinitionFile.CardStepDefinitions.card_id_stored()&amp#27;[39m
+Prepared payload to update card name to: First Card Updated
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUpdate Card Payload with Card name &amp#27;[1m"First Card Updated"&amp#27;[22m&amp#27;[39m                   &amp#27;[90m# stepDefinitionFile.CardStepDefinitions.update_card_payload(java.lang.String)&amp#27;[39m
+Calling API: UPDATE_CARD_API using method: put
+API call completed. Endpoint: /cards/6906b6923e534039f75f3084, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"UPDATE_CARD_API"&amp#27;[22m by using &amp#27;[1m"put"&amp#27;[22m request&amp#27;[39m                       &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                            &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Card verified successfully: First Card Updated
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify Card details with name &amp#27;[1m"First Card Updated"&amp#27;[22m and associated List ID&amp#27;[39m &amp#27;[90m# stepDefinitionFile.CardStepDefinitions.verify_card_details(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete a card" classname="Validation of Trello Cards" time="0.47">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Delete a card                                        &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/CardValidation.feature:19&amp#27;[39m
+Using Card ID: 6906b6923e534039f75f3084
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mCard ID is stored from previous response&amp#27;[39m             &amp#27;[90m# stepDefinitionFile.CardStepDefinitions.card_id_stored()&amp#27;[39m
+Prepared payload for deleting card ID: 6906b6923e534039f75f3084
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mDelete Card Payload is ready&amp#27;[39m                           &amp#27;[90m# stepDefinitionFile.CardStepDefinitions.delete_card_payload_is_ready()&amp#27;[39m
+Calling API: DELETE_CARD_API using method: delete
+API call completed. Endpoint: /cards/6906b6923e534039f75f3084, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"DELETE_CARD_API"&amp#27;[22m by using &amp#27;[1m"delete"&amp#27;[22m request&amp#27;[39m &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m         &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Card deleted successfully. Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the card is deleted successfully&amp#27;[39m                &amp#27;[90m# stepDefinitionFile.CardStepDefinitions.verify_card_deleted()&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Create a new label under an existing board" classname="Validation of Trello Labels" time="0.451">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Create a new label under an existing board                                    &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/CreateLabel.feature:3&amp#27;[39m
+Using stored Board ID: 6906b68ef15f686d08bda6ea
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mBoard ID is stored from previous response&amp#27;[39m                                     &amp#27;[90m# stepDefinitionFile.CommonSteps.board_id_stored()&amp#27;[39m
+Prepared payload to create label: Urgent, color: yellow
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mAdd Label Payload with Label name &amp#27;[1m"Urgent"&amp#27;[22m and color &amp#27;[1m"yellow"&amp#27;[22m&amp#27;[39m                   &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.add_label_payload_with_label_name_and_color(java.lang.String,java.lang.String)&amp#27;[39m
+Calling API: CREATE_LABEL_API using method: post
+API call completed. Endpoint: /labels, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"CREATE_LABEL_API"&amp#27;[22m by using &amp#27;[1m"post"&amp#27;[22m request&amp#27;[39m                           &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                                  &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Label verified successfully: ID=6906b693b8c76b81cb643e76, Name=Urgent, Color=yellow
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify Label details with name &amp#27;[1m"Urgent"&amp#27;[22m, color &amp#27;[1m"yellow"&amp#27;[22m and associated Board ID&amp#27;[39m &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.verify_label_details_with_name_color_and_associated_board_id(java.lang.String,java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Update an existing label" classname="Validation of Trello Labels" time="0.47">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Update an existing label                                        &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/CreateLabel.feature:10&amp#27;[39m
+Using Label ID: 6906b693b8c76b81cb643e76
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mLabel ID is stored from previous response&amp#27;[39m                       &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.label_id_stored()&amp#27;[39m
+Prepared payload to update label: Urgent Update, color: purple
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUpdate Label Payload with name &amp#27;[1m"Urgent Update"&amp#27;[22m and color &amp#27;[1m"purple"&amp#27;[22m&amp#27;[39m &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.update_label_payload(java.lang.String,java.lang.String)&amp#27;[39m
+Calling API: UPDATE_LABEL_API using method: put
+API call completed. Endpoint: /labels/6906b693b8c76b81cb643e76, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"UPDATE_LABEL_API"&amp#27;[22m by using &amp#27;[1m"put"&amp#27;[22m request&amp#27;[39m              &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                    &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Label verified successfully: ID=6906b693b8c76b81cb643e76, Name=Urgent Update, Color=purple
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify Label details with name &amp#27;[1m"Urgent Update"&amp#27;[22m and color &amp#27;[1m"purple"&amp#27;[22m&amp#27;[39m &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.verify_label_details(java.lang.String,java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Get an existing label by ID" classname="Validation of Trello Labels" time="0.42">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Get an existing label by ID                                     &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/CreateLabel.feature:17&amp#27;[39m
+Using Label ID: 6906b693b8c76b81cb643e76
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mLabel ID is stored from previous response&amp#27;[39m                       &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.label_id_stored()&amp#27;[39m
+Calling API: GET_LABEL_API using method: get
+API call completed. Endpoint: /labels/6906b693b8c76b81cb643e76, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"GET_LABEL_API"&amp#27;[22m by using &amp#27;[1m"get"&amp#27;[22m request&amp#27;[39m                 &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                    &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Label verified successfully: ID=6906b693b8c76b81cb643e76, Name=Urgent Update, Color=purple
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify Label details with name &amp#27;[1m"Urgent Update"&amp#27;[22m and color &amp#27;[1m"purple"&amp#27;[22m&amp#27;[39m &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.verify_label_details(java.lang.String,java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete an existing label" classname="Validation of Trello Labels" time="0.426">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Delete an existing label                              &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/CreateLabel.feature:23&amp#27;[39m
+Using Label ID: 6906b693b8c76b81cb643e76
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mLabel ID is stored from previous response&amp#27;[39m             &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.label_id_stored()&amp#27;[39m
+Calling API: DELETE_LABEL_API using method: delete
+API call completed. Endpoint: /labels/6906b693b8c76b81cb643e76, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"DELETE_LABEL_API"&amp#27;[22m by using &amp#27;[1m"delete"&amp#27;[22m request&amp#27;[39m &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+Label deleted successfully. ID: 6906b693b8c76b81cb643e76
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mVerify Label is deleted successfully&amp#27;[39m                   &amp#27;[90m# stepDefinitionFile.LabelStepDefinitions.verify_label_is_deleted_successfully()&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Create a new list under an existing board" classname="Validation of Trello Lists" time="0.41">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Create a new list under an existing board                     &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/ListValidation.feature:3&amp#27;[39m
+Using stored Board ID: 6906b68ef15f686d08bda6ea
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mBoard ID is stored from previous response&amp#27;[39m                     &amp#27;[90m# stepDefinitionFile.CommonSteps.board_id_stored()&amp#27;[39m
+Prepared List payload for board ID: 6906b68ef15f686d08bda6ea
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mAdd List Payload with List name &amp#27;[1m"Backlog"&amp#27;[22m&amp#27;[39m                       &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.add_list_payload(java.lang.String)&amp#27;[39m
+Calling API: CREATE_LIST_API using method: post
+API call completed. Endpoint: /lists, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"CREATE_LIST_API"&amp#27;[22m by using &amp#27;[1m"post"&amp#27;[22m request&amp#27;[39m            &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                  &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Verified List: Backlog, List ID: 6906b6955c8e136ebb90d7a0
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify List details with name &amp#27;[1m"Backlog"&amp#27;[22m and associated Board ID&amp#27;[39m &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.verify_list_details(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Update the existing list name" classname="Validation of Trello Lists" time="0.38">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Update the existing list name                                            &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/ListValidation.feature:10&amp#27;[39m
+Using existing list ID: 6906b6955c8e136ebb90d7a0
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mList ID is stored from previous response&amp#27;[39m                                 &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.list_id_is_stored_from_previous_response()&amp#27;[39m
+Prepared payload to update list ID: 6906b6955c8e136ebb90d7a0 with new name: Backlog_one_Update
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUpdate List Payload with List name &amp#27;[1m"Backlog_one_Update"&amp#27;[22m&amp#27;[39m                    &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.update_list_payload(java.lang.String)&amp#27;[39m
+Calling API: UPDATE_LIST_API using method: put
+API call completed. Endpoint: /lists/6906b6955c8e136ebb90d7a0, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"UPDATE_LIST_API"&amp#27;[22m by using &amp#27;[1m"put"&amp#27;[22m request&amp#27;[39m                        &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                             &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Verified List: Backlog_one_Update, List ID: 6906b6955c8e136ebb90d7a0
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify List details with name &amp#27;[1m"Backlog_one_Update"&amp#27;[22m and associated Board ID&amp#27;[39m &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.verify_list_details(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Fetch an existing list by ID" classname="Validation of Trello Lists" time="0.35">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Fetch an existing list by ID                                             &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/ListValidation.feature:17&amp#27;[39m
+Using existing list ID: 6906b6955c8e136ebb90d7a0
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mList ID is stored from previous response&amp#27;[39m                                 &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.list_id_is_stored_from_previous_response()&amp#27;[39m
+Calling API: GET_LIST_API using method: get
+API call completed. Endpoint: /lists/6906b6955c8e136ebb90d7a0, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"GET_LIST_API"&amp#27;[22m by using &amp#27;[1m"get"&amp#27;[22m request&amp#27;[39m                           &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                             &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+Verified List: Backlog_one_Update, List ID: 6906b6955c8e136ebb90d7a0
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify List details with name &amp#27;[1m"Backlog_one_Update"&amp#27;[22m and associated Board ID&amp#27;[39m &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.verify_list_details(java.lang.String)&amp#27;[39m
+Verified datasource filter is false for List ID: 6906b6955c8e136ebb90d7a0
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify datasource filter is false&amp#27;[39m                                          &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.verify_datasource_filter_is_false()&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Move an existing list to another board" classname="Validation of Trello Lists" time="1.154">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Move an existing list to another board                               &amp#27;[90m# file:///C:/WebProject/Trello/src/test/java/features/ListValidation.feature:24&amp#27;[39m
+Created new board for moving list. ID: 6906b6962e46049e8f273016
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mA new board is created for moving list with name &amp#27;[1m"Destination_Board"&amp#27;[22m&amp#27;[39m &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.create_new_board_for_move(java.lang.String)&amp#27;[39m
+Stored newBoardId: 6906b6962e46049e8f273016
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mStore its Board ID as newBoardId&amp#27;[39m                                       &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.store_new_board_id()&amp#27;[39m
+Using existing list ID: 6906b6955c8e136ebb90d7a0
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mList ID is stored from previous response&amp#27;[39m                               &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.list_id_is_stored_from_previous_response()&amp#27;[39m
+Calling API: MOVE_LIST_TO_BOARD_API using method: put
+API call completed. Endpoint: /lists/6906b6955c8e136ebb90d7a0/idBoard, Status: 200
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser call &amp#27;[1m"MOVE_LIST_TO_BOARD_API"&amp#27;[22m by using &amp#27;[1m"put"&amp#27;[22m request&amp#27;[39m             &amp#27;[90m# stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mAPI call is successfully with 200 status code&amp#27;[39m                         &amp#27;[90m# stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()&amp#27;[39m
+List successfully moved to new board: 6906b6962e46049e8f273016
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the list has been moved to new board successfully&amp#27;[39m               &amp#27;[90m# stepDefinitionFile.ListStepDefinitions.verify_list_moved_to_new_board()&amp#27;[39m
+]]></system-out>
+  </testcase>
+</testsuite>

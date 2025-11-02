@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>API Automation Framework</td>
+        <td>1</td>
+      <td>02 Nov 2025, 03:40</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">stepDefinitionFile.BoardStepDefinitions.add_board_payload(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="995390700">0.995</td>
+              <td class="duration" data-value="995390700">0.995</td>
+              <td class="duration" data-value="995390700">0.995</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.BoardStepDefinitions.update_board_payload(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1995900">0.001</td>
+              <td class="duration" data-value="1995900">0.001</td>
+              <td class="duration" data-value="1995900">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.BoardStepDefinitions.verify_board_name_updated(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="5986200">0.005</td>
+              <td class="duration" data-value="5986200">0.005</td>
+              <td class="duration" data-value="5986200">0.005</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.BoardStepDefinitions.verify_created_board(java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="260301950">0.260</td>
+              <td class="duration" data-value="260301950">0.514</td>
+              <td class="duration" data-value="520603900">0.520</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.BoardStepDefinitions.verify_updated_board(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="6980600">0.006</td>
+              <td class="duration" data-value="6980600">0.006</td>
+              <td class="duration" data-value="6980600">0.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CardStepDefinitions.add_card_payload(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1991700">0.001</td>
+              <td class="duration" data-value="1991700">0.001</td>
+              <td class="duration" data-value="1991700">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CardStepDefinitions.card_id_stored()</td>
+              <td>2</td>
+              <td class="duration" data-value="1994650">0.001</td>
+              <td class="duration" data-value="1994650">0.002</td>
+              <td class="duration" data-value="3989300">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CardStepDefinitions.delete_card_payload_is_ready()</td>
+              <td>1</td>
+              <td class="duration" data-value="5984600">0.005</td>
+              <td class="duration" data-value="5984600">0.005</td>
+              <td class="duration" data-value="5984600">0.005</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CardStepDefinitions.update_card_payload(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="7986000">0.007</td>
+              <td class="duration" data-value="7986000">0.007</td>
+              <td class="duration" data-value="7986000">0.007</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CardStepDefinitions.verify_card_deleted()</td>
+              <td>1</td>
+              <td class="duration" data-value="999000">0.000</td>
+              <td class="duration" data-value="999000">0.000</td>
+              <td class="duration" data-value="999000">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CardStepDefinitions.verify_card_details(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="85770250">0.085</td>
+              <td class="duration" data-value="85770250">0.110</td>
+              <td class="duration" data-value="171540500">0.171</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CommonSteps.api_call_is_successfully_with_200_status_code()</td>
+              <td>14</td>
+              <td class="duration" data-value="6429650">0.006</td>
+              <td class="duration" data-value="6429650">0.053</td>
+              <td class="duration" data-value="90015100">0.090</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CommonSteps.board_id_stored()</td>
+              <td>4</td>
+              <td class="duration" data-value="3490450">0.003</td>
+              <td class="duration" data-value="3490450">0.005</td>
+              <td class="duration" data-value="13961800">0.013</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.CommonSteps.user_call_api(java.lang.String,java.lang.String)</td>
+              <td>15</td>
+              <td class="duration" data-value="528890560">0.528</td>
+              <td class="duration" data-value="528890560">2.290</td>
+              <td class="duration" data-value="7933358400">7.933</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.LabelStepDefinitions.add_label_payload_with_label_name_and_color(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="5985100">0.005</td>
+              <td class="duration" data-value="5985100">0.005</td>
+              <td class="duration" data-value="5985100">0.005</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.LabelStepDefinitions.label_id_stored()</td>
+              <td>3</td>
+              <td class="duration" data-value="332300">0.000</td>
+              <td class="duration" data-value="332300">0.000</td>
+              <td class="duration" data-value="996900">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.LabelStepDefinitions.update_label_payload(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2992100">0.002</td>
+              <td class="duration" data-value="2992100">0.002</td>
+              <td class="duration" data-value="2992100">0.002</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.LabelStepDefinitions.verify_label_details(java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="60546950">0.060</td>
+              <td class="duration" data-value="60546950">0.072</td>
+              <td class="duration" data-value="121093900">0.121</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.LabelStepDefinitions.verify_label_details_with_name_color_and_associated_board_id(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="54662200">0.054</td>
+              <td class="duration" data-value="54662200">0.054</td>
+              <td class="duration" data-value="54662200">0.054</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.LabelStepDefinitions.verify_label_is_deleted_successfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="994700">0.000</td>
+              <td class="duration" data-value="994700">0.000</td>
+              <td class="duration" data-value="994700">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.ListStepDefinitions.add_list_payload(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1994700">0.001</td>
+              <td class="duration" data-value="1994700">0.001</td>
+              <td class="duration" data-value="1994700">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.ListStepDefinitions.create_new_board_for_move(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="642093500">0.642</td>
+              <td class="duration" data-value="642093500">0.642</td>
+              <td class="duration" data-value="642093500">0.642</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.ListStepDefinitions.list_id_is_stored_from_previous_response()</td>
+              <td>4</td>
+              <td class="duration" data-value="330702375">0.330</td>
+              <td class="duration" data-value="330702375">1.318</td>
+              <td class="duration" data-value="1322809500">1.322</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.ListStepDefinitions.store_new_board_id()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.ListStepDefinitions.update_list_payload(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="3987400">0.003</td>
+              <td class="duration" data-value="3987400">0.003</td>
+              <td class="duration" data-value="3987400">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.ListStepDefinitions.verify_datasource_filter_is_false()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.ListStepDefinitions.verify_list_details(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="10891800">0.010</td>
+              <td class="duration" data-value="10891800">0.025</td>
+              <td class="duration" data-value="32675400">0.032</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinitionFile.ListStepDefinitions.verify_list_moved_to_new_board()</td>
+              <td>1</td>
+              <td class="duration" data-value="4975000">0.004</td>
+              <td class="duration" data-value="4975000">0.004</td>
+              <td class="duration" data-value="4975000">0.004</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>28</td>
+            <td>69</td>
+            <td class="duration">0.173</td>
+            <td class="duration">7.933</td>
+            <td class="duration">11.956</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
